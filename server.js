@@ -5,26 +5,33 @@ var mongoose = require('mongoose');
 
 
 //PERSISTENCIA 
-mongoose.connect('mongodb://localhost/bdCrud', { useNewUrlParser: true } );
+mongoose.connect('mongodb://localhost/bdSpac', { useNewUrlParser: true } );
 
 //configuração do server para usar o body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //definindo a porta via arquivo de configuração
-var port = process.env.port || 3001;
+var port = process.env.port || 3000;
 
 //ROTAS
 var indexRoute = require("./src/routes/index-routes");
-var productRoute = require("./src/routes/product-routes");
-var userRoute = require("./src/routes/user-routes");
+var clienteRoute = require("./src/routes/cliente-routes");
+var clinicaRoute = require("./src/routes/clinica-routes");
+var consultaRoute = require("./src/routes/consulta-routes");
+var medicoRoute = require("./src/routes/medico-routes");
+var secretariaRoute = require("./src/routes/secretaria-routes");
+
 
 //vincular a aplicação (app) com o motor de rotas
 app.use('/api',indexRoute);
 //Rotas para produtos
-app.use('/products',productRoute);
 
-app.use('/user',userRoute);
+app.use('/cliente',clienteRoute);
+app.use('/clinica',clinicaRoute);
+app.use('/consulta',consultaRoute);
+app.use('/medico',medicoRoute);
+app.use('/secretaria',secretariaRoute);
 
 
 app.listen(port, () => {
