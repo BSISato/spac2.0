@@ -1,0 +1,1480 @@
+{
+	"info": {
+		"_postman_id": "5421c0c8-7105-4d26-93ea-2292b5d3b521",
+		"name": "SPAC2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CLIENTE",
+			"item": [
+				{
+					"name": "cadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Rogerio Sato",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "rogerio@rogerio.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Rua das Ruas",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "sem",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Parque São Jogi",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "convenioMedico",
+									"value": "UniMeti",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastro 2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Jacaré Keiti",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "2000-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "jacare@jacare.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "4321",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1455556666",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14998887755",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Rua Amazonas",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "lago",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "convenioMedico",
+									"value": "UniMeti",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastro 3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Leo Nada Não",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "2010",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "naonao@nadanao",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Rua Ahhhh não tem ",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "perai... ahhh nada não",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Av. nada não",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "convenioMedico",
+									"value": "UniMeti",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastro 4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Rogerio Sato",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "rogerio@rogerio.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Rua das Ruas",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "sem",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Parque São Jogi",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "convenioMedico",
+									"value": "UniMeti",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualização",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Rogerio Sato",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "rogerio@rogerio.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Rua das Ruasssss",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "sem",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Parque São Jogi",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "convenioMedico",
+									"value": "UniMeti",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente/5cb9fed178851c26e48eff02",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								"5cb9fed178851c26e48eff02"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exclusão",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MEDICO",
+			"item": [
+				{
+					"name": "cadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Dr. Jair Inacio",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mourao@mourao.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "Batalhão 1",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "crm",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "especialidade",
+									"value": "exercito",
+									"type": "text"
+								},
+								{
+									"key": "valorConsulta",
+									"value": "1.99",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/medico/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"medico",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastro 2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Dr. Jair Inacio",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mourao@mourao.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "Batalhão 1",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "crm",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "especialidade",
+									"value": "exercito",
+									"type": "text"
+								},
+								{
+									"key": "valorConsulta",
+									"value": "1.99",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/medico/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"medico",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastro 3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Dr. Jair Inacio",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mourao@mourao.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "Batalhão 1",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "crm",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "especialidade",
+									"value": "exercito",
+									"type": "text"
+								},
+								{
+									"key": "valorConsulta",
+									"value": "1.99",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/medico/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"medico",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/medico",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"medico"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualização",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Dr. Jair Inacio",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1800-01-01",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mourao@mourao.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Bopeeee",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "171",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "Batalhão 1",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Bope",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								},
+								{
+									"key": "crm",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "especialidade",
+									"value": "exercito",
+									"type": "text"
+								},
+								{
+									"key": "valorConsulta",
+									"value": "1.99",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/medico/5cba14df70a9ac23dcca1921",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"medico",
+								"5cba14df70a9ac23dcca1921"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exclusão",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/medico/5cba15d870a9ac23dcca1923",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"medico",
+								"5cba15d870a9ac23dcca1923"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SECRETARIA",
+			"item": [
+				{
+					"name": "cadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Maria Juditiiii",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1100-01-03",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mariajuju@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Sampaio Vidal",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "999",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "5º andar",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/secretaria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"secretaria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualização",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Maria Juditiiii",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "1100-01-03",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mariajuju@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "celular",
+									"value": "14999998877",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Av Sampaio Vidal",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "999",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "5º andar apto 3",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/secretaria/5cba1959d2520e1b307db7ea",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"secretaria",
+								"5cba1959d2520e1b307db7ea"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exclusão",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/secretaria/5cba1959d2520e1b307db7ea",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"secretaria",
+								"5cba1959d2520e1b307db7ea"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:3000/secretaria",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"secretaria"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CLINICA",
+			"item": [
+				{
+					"name": "cadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Clinica Cura Estresse",
+									"type": "text"
+								},
+								{
+									"key": "cnpj",
+									"value": "06.563.637/0001-72",
+									"type": "text"
+								},
+								{
+									"key": "descricao",
+									"value": "faixada para casa de massagem",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "50tao3cervejas@metimeti.com",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Sampaio Vidal",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "999",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "5º andar",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/clinica/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clinica",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualização",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Clinica Cura Estresse",
+									"type": "text"
+								},
+								{
+									"key": "cnpj",
+									"value": "06.563.637/0001-72",
+									"type": "text"
+								},
+								{
+									"key": "descricao",
+									"value": "faixada para casa de massagem",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "50tao3cervejas@metimeti.com",
+									"type": "text"
+								},
+								{
+									"key": "telefone",
+									"value": "1434341122",
+									"type": "text"
+								},
+								{
+									"key": "logradouro",
+									"value": "Sampaio Vidal",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "999",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "casa dos fundos",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Centro",
+									"type": "text"
+								},
+								{
+									"key": "cidade",
+									"value": "Marilia",
+									"type": "text"
+								},
+								{
+									"key": "uf",
+									"value": "SP",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/clinica/5cba20459241a337583d9aa5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clinica",
+								"5cba20459241a337583d9aa5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exclusão",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/clinica/5cba20459241a337583d9aa5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clinica",
+								"5cba20459241a337583d9aa5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
