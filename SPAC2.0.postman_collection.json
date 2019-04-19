@@ -1475,6 +1475,149 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "CONSULTA",
+			"item": [
+				{
+					"name": "cadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "data",
+									"value": "2020-01-20",
+									"type": "text"
+								},
+								{
+									"key": "situacao",
+									"value": "aguardando",
+									"type": "text"
+								},
+								{
+									"key": "descricao",
+									"value": "problemas nos ovo",
+									"type": "text"
+								},
+								{
+									"key": "prontuario",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "idCliente",
+									"value": "5cba253b9241a337583d9aa9",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/consulta/5cba42103ee3111754f605ed",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"consulta",
+								"5cba42103ee3111754f605ed"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualização",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "data",
+									"value": "2018-01-01",
+									"type": "text"
+								},
+								{
+									"key": "situacao",
+									"value": "aguardando",
+									"type": "text"
+								},
+								{
+									"key": "descricao",
+									"value": "dor no xibiuuuuu",
+									"type": "text"
+								},
+								{
+									"key": "prontuario",
+									"value": "verificado que era apenas frescura",
+									"type": "text"
+								},
+								{
+									"key": "idCliente",
+									"value": "5cba25399241a337583d9aa8",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/consulta/5cba3267df56452da021ce3c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"consulta",
+								"5cba3267df56452da021ce3c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consulta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/consulta/5cba42103ee3111754f605ed",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"consulta",
+								"5cba42103ee3111754f605ed"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
