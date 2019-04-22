@@ -3,7 +3,9 @@ import bodyParser from 'body-parser';
 const app = express();
 var mongoose = require('mongoose');
 
-
+//const uri = "mongodb+srv://rozcovo:@cluster0-ox7rb.mongodb.net/test?retryWrites=true";
+//const client = new MongoClient(uri, { useNewUrlParser: true });
+//mongoose.connect(uri, { useNewUrlParser: true } );
 //PERSISTENCIA 
 mongoose.connect('mongodb://localhost/bdSpac', { useNewUrlParser: true } );
 
