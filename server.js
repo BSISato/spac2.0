@@ -13,6 +13,13 @@ mongoose.connect(uri, { useNewUrlParser: true } );
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.use(function(req, res, next) {
+
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "DELETE, POST, GET, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "*");
+});
+
 //definindo a porta via arquivo de configuração
 var port = process.env.port || 3000;
 
