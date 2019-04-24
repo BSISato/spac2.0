@@ -14,5 +14,7 @@ router.get('/', controller.getAll);
 router.delete('/:delSecretariaId',controller.delete); 
 //rota altera
 router.put('/:altSecretariaId', controller.put);
+//rota autenticação
+router.post('/authenticate', controller.authenticate);
 
 module.exports = router;

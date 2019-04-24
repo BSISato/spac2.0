@@ -18,6 +18,11 @@
 								"name": "Content-Type",
 								"value": "application/x-www-form-urlencoded",
 								"type": "text"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjYmY0NDVmMzkxMTJlMjRiMDRkODkxMyIsImVtYWlsIjoianVqdUBqdWp1Iiwibm9tZSI6Ik1hcmlhIEp1ZGl0aWlpaSIsImlhdCI6MTU1NjA3Mzc3OCwiZXhwIjoxNTU2MTYwMTc4fQ.yEq2gI7joQbmMO5Lvy9FXjLGcJg_Cu76wzejwwgv-4k",
+								"type": "text"
 							}
 						],
 						"body": {
@@ -35,12 +40,12 @@
 								},
 								{
 									"key": "email",
-									"value": "rogerio@rogerio.com",
+									"value": "spac@spac",
 									"type": "text"
 								},
 								{
 									"key": "senha",
-									"value": "1234",
+									"value": "spac",
 									"type": "text"
 								},
 								{
@@ -115,6 +120,11 @@
 								"name": "Content-Type",
 								"type": "text",
 								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjYmY0NDVmMzkxMTJlMjRiMDRkODkxMyIsImVtYWlsIjoianVqdUBqdWp1Iiwibm9tZSI6Ik1hcmlhIEp1ZGl0aWlpaSIsImlhdCI6MTU1NjA3Mzc3OCwiZXhwIjoxNTU2MTYwMTc4fQ.yEq2gI7joQbmMO5Lvy9FXjLGcJg_Cu76wzejwwgv-4k",
+								"type": "text"
 							}
 						],
 						"body": {
@@ -132,12 +142,12 @@
 								},
 								{
 									"key": "email",
-									"value": "jacare@jacare.com",
+									"value": "spac@spac",
 									"type": "text"
 								},
 								{
 									"key": "senha",
-									"value": "4321",
+									"value": "spac",
 									"type": "text"
 								},
 								{
@@ -229,12 +239,12 @@
 								},
 								{
 									"key": "email",
-									"value": "naonao@nadanao",
+									"value": "spac@spac",
 									"type": "text"
 								},
 								{
 									"key": "senha",
-									"value": "24",
+									"value": "spac",
 									"type": "text"
 								},
 								{
@@ -307,7 +317,12 @@
 							{
 								"key": "Content-Type",
 								"name": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjYmY0NDVmMzkxMTJlMjRiMDRkODkxMyIsImVtYWlsIjoianVqdUBqdWp1Iiwibm9tZSI6Ik1hcmlhIEp1ZGl0aWlpaSIsImlhdCI6MTU1NjA3Mzc3OCwiZXhwIjoxNTU2MTYwMTc4fQ.yEq2gI7joQbmMO5Lvy9FXjLGcJg_Cu76wzejwwgv-4k",
 								"type": "text"
 							}
 						],
@@ -316,22 +331,22 @@
 							"urlencoded": [
 								{
 									"key": "nome",
-									"value": "Rogerio Sato",
+									"value": "Israel Roça Ovo",
 									"type": "text"
 								},
 								{
 									"key": "dataNascimento",
-									"value": "1800-01-01",
+									"value": "2000-01-01",
 									"type": "text"
 								},
 								{
 									"key": "email",
-									"value": "rogerio@rogerio.com",
+									"value": "spac@spac",
 									"type": "text"
 								},
 								{
 									"key": "senha",
-									"value": "1234",
+									"value": "spac",
 									"type": "text"
 								},
 								{
@@ -346,27 +361,27 @@
 								},
 								{
 									"key": "logradouro",
-									"value": "Rua das Ruas",
+									"value": "Rua Dos Roçadores de Ovo",
 									"type": "text"
 								},
 								{
 									"key": "numero",
-									"value": "171",
+									"value": "444",
 									"type": "text"
 								},
 								{
 									"key": "complemento",
-									"value": "sem",
+									"value": "Roço",
 									"type": "text"
 								},
 								{
 									"key": "bairro",
-									"value": "Parque São Jogi",
+									"value": "Parque dos Roçadores",
 									"type": "text"
 								},
 								{
 									"key": "cidade",
-									"value": "Marilia",
+									"value": "Bastos",
 									"type": "text"
 								},
 								{
@@ -406,6 +421,11 @@
 								"name": "Content-Type",
 								"type": "text",
 								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjYmY0NDVmMzkxMTJlMjRiMDRkODkxMyIsImVtYWlsIjoianVqdUBqdWp1Iiwibm9tZSI6Ik1hcmlhIEp1ZGl0aWlpaSIsImlhdCI6MTU1NjA3Mzc3OCwiZXhwIjoxNTU2MTYwMTc4fQ.yEq2gI7joQbmMO5Lvy9FXjLGcJg_Cu76wzejwwgv-4k",
+								"type": "text"
 							}
 						],
 						"body": {
@@ -413,7 +433,7 @@
 							"urlencoded": [
 								{
 									"key": "nome",
-									"value": "Rogerio Sato",
+									"value": "Rogerio Satoooooo",
 									"type": "text"
 								},
 								{
@@ -479,7 +499,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:3000/cliente/5cb9fed178851c26e48eff02",
+							"raw": "http://localhost:3000/cliente/5cbfccc2245e6e29405ea096",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -487,7 +507,7 @@
 							"port": "3000",
 							"path": [
 								"cliente",
-								"5cb9fed178851c26e48eff02"
+								"5cbfccc2245e6e29405ea096"
 							]
 						}
 					},
@@ -495,36 +515,25 @@
 				},
 				{
 					"name": "consulta",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
-						"url": {
-							"raw": "http://localhost:3000/cliente",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"cliente"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "exclusão",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjYmY0NDVmMzkxMTJlMjRiMDRkODkxMyIsImVtYWlsIjoianVqdUBqdWp1Iiwibm9tZSI6Ik1hcmlhIEp1ZGl0aWlpaSIsImlhdCI6MTU1NjA3Mzc3OCwiZXhwIjoxNTU2MTYwMTc4fQ.yEq2gI7joQbmMO5Lvy9FXjLGcJg_Cu76wzejwwgv-4k",
+								"type": "text"
+							}
+						],
+						"body": {},
 						"url": {
 							"raw": "http://localhost:3000/cliente/",
 							"protocol": "http",
@@ -535,6 +544,39 @@
 							"path": [
 								"cliente",
 								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exclusão",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjYmY0NDVmMzkxMTJlMjRiMDRkODkxMyIsImVtYWlsIjoianVqdUBqdWp1Iiwibm9tZSI6Ik1hcmlhIEp1ZGl0aWlpaSIsImlhdCI6MTU1NjA3Mzc3OCwiZXhwIjoxNTU2MTYwMTc4fQ.yEq2gI7joQbmMO5Lvy9FXjLGcJg_Cu76wzejwwgv-4k",
+								"type": "text"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:3000/cliente/5cbfccc2245e6e29405ea096",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cliente",
+								"5cbfccc2245e6e29405ea096"
 							]
 						}
 					},
@@ -1026,6 +1068,48 @@
 			"name": "SECRETARIA",
 			"item": [
 				{
+					"name": "autenticação Secretaria",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "spac@spac",
+									"type": "text"
+								},
+								{
+									"key": "senha",
+									"value": "spac",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/secretaria/authenticate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"secretaria",
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "cadastro",
 					"request": {
 						"method": "POST",
@@ -1243,8 +1327,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://localhost:3000/secretaria",
-							"protocol": "https",
+							"raw": "http://localhost:3000/secretaria",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
@@ -1445,7 +1529,16 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": ""
+							"raw": "http://localhost:3000/clinica/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clinica",
+								""
+							]
 						}
 					},
 					"response": []

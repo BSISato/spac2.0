@@ -1,18 +1,20 @@
 const express = require('express');
 var router = express.Router();//interceptação das rotas
 const controller = require('../controllers/cliente-controller');
+const authService = require('../services/auth-service');
+
 
 //var Produto = require('../app/models/product'); ????
 
 //POST
-router.post("/", controller.post);
+router.post("/",authService.authorize, controller.post);
 //rota de get byid
-router.get('/:clienteId', controller.getById);
+router.get('/:clienteId',authService.authorize, controller.getById);
 //rota get
-router.get('/', controller.getAll);
+router.get('/',authService.authorize, controller.getAll);
 //rota deletar
-router.delete('/:delClienteId',controller.delete); 
+router.delete('/:delClienteId',authService.authorize, controller.delete); 
 //rota altera
-router.put('/:altClienteId', controller.put);
+router.put('/:altClienteId',authService.authorize, controller.put);
 
 module.exports = router;

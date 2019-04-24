@@ -1,6 +1,7 @@
-var Cliente = require("../app/models/cliente");
-var mongoose = require('mongoose');
-var repository = require('../repositories/cliente-repository');
+const Cliente = require("../app/models/cliente");
+const mongoose = require('mongoose');
+const repository = require('../repositories/cliente-repository');
+
 
 exports.getAll = async (req, res) => {
     try {
@@ -86,6 +87,7 @@ exports.delete = async (req, res) => {
         });
     }
 }
+
 
 
 

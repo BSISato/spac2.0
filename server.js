@@ -9,9 +9,13 @@ mongoose.connect(uri, { useNewUrlParser: true } );
 //PERSISTENCIA 
 //mongoose.connect('mongodb://localhost/bdSpac', { useNewUrlParser: true } );
 
+var config = require('./src/config')
+
 //configuração do server para usar o body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+/* VERIFICAR ESSA CARALHA AQUI
 
 app.use(function(req, res, next) {
 
@@ -19,7 +23,7 @@ app.use(function(req, res, next) {
     res.setHeader("Access-Control-Allow-Methods", "DELETE, POST, GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "*");
 });
-
+*/
 //definindo a porta via arquivo de configuração
 var port = process.env.port || 3000;
 

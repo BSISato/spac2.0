@@ -2,6 +2,7 @@
 var Cliente = require('../app/models/cliente');
 var mongoose = require('mongoose');
 
+
 //getAll
 exports.get = async () => {
     const res = await Cliente.find();

@@ -2,6 +2,19 @@
 var Secretaria = require('../app/models/secretaria');
 var mongoose = require('mongoose');
 
+exports.create = async(data) => {
+    var secretaria = new Secretaria(data);
+    await secretaria.save();
+}
+
+exports.authenticate = async(data) => {
+    const res = await Secretaria.findOne({
+        email: data.email,
+        senha: data.senha
+    });
+    return res;
+}
+
 //getAll
 exports.get = async () => {
     const res = await Secretaria.find();

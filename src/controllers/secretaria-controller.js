@@ -1,6 +1,7 @@
 var Secretaria = require("../app/models/secretaria");
 var mongoose = require('mongoose');
 var repository = require('../repositories/secretaria-repository');
+const authService = require('../services/auth-service');
 
 exports.getAll = async (req, res) => {
     try {
@@ -83,6 +84,40 @@ exports.delete = async (req, res) => {
         console.log(e);
         res.status(500).send({
             message: "Falha ao processar a requisição",
+        });
+    }
+}
+exports.authenticate = async(req, res, next) => {
+    try {
+        const secretaria = await repository.authenticate({
+            email:req.body.email,
+            senha:req.body.senha
+        });
+        //console.log(cliente);
+        if(!secretaria){
+            res.status(404).send({
+                message: 'Usuário ou senha inválidos'
+            });
+            return;
+        }
+
+        const token = await authService.generateToken({
+            id: secretaria.id,
+            email: secretaria.email,
+            nome: secretaria.nome
+           // roles: cliente.roles???
+        });
+        res.status(201).send({
+            token: token,
+            data:{
+                email:secretaria.email,
+                nome:secretaria.nome
+            }
+        });
+
+    } catch (error) {
+        res.status(500).send({
+            message: "Falha ao processar requisição"
         });
     }
 }
