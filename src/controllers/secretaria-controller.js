@@ -115,6 +115,7 @@ exports.authenticate = async(req, res, next) => {
         });
         res.status(201).send({
             token: token,
+            message:"Token validado com sucesso",
             data:{
                 email:secretaria.email,
                 nome:secretaria.nome

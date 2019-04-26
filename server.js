@@ -3,11 +3,11 @@ import bodyParser from 'body-parser';
 const app = express();
 var mongoose = require('mongoose');
 
-const uri = "mongodb+srv://rozcovo:paçoquinha@cluster0-ox7rb.mongodb.net/bdSpac?retryWrites=true";
+///const uri = "mongodb+srv://rozcovo:paçoquinha@cluster0-ox7rb.mongodb.net/bdSpac?retryWrites=true";
 //const client = new MongoClient(uri, { useNewUrlParser: true });
-mongoose.connect(uri, { useNewUrlParser: true } );
+///mongoose.connect(uri, { useNewUrlParser: true } );
 //PERSISTENCIA 
-//mongoose.connect('mongodb://localhost/bdSpac', { useNewUrlParser: true } );
+mongoose.connect('mongodb://localhost/bdSpac', { useNewUrlParser: true } );
 
 var config = require('./src/config')
 
