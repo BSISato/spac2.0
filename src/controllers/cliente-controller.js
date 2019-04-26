@@ -6,7 +6,10 @@ const repository = require('../repositories/cliente-repository');
 exports.getAll = async (req, res) => {
     try {
         var data = await repository.get();
-        res.status(200).send(data);
+        res.status(200).send({
+            message: "Clientes:",
+            data
+        });
     } catch (error) {
         res.status(500).send({
             message: "Falha ao processar a requisição",
@@ -20,7 +23,10 @@ exports.getById = async (req, res) => {
 
     try {
         var data = await repository.getById(id);
-        res.status(200).send(data);
+        res.status(200).send({
+            message: "Cliente:",
+            data
+        });
     } catch (error) {
         res.status(500).send({
             message: "Falha ao processar a requisição",

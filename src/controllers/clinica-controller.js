@@ -5,7 +5,10 @@ var repository = require('../repositories/clinica-repository');
 exports.getAll = async (req, res) => {
     try {
         var data = await repository.get();
-        res.status(200).send(data);
+        res.status(200).send({
+            message: "Clinicas:",
+            data
+        });
     } catch (error) {
         res.status(500).send({
             message: "Falha ao processar a requisição",
@@ -19,7 +22,10 @@ exports.getById = async (req, res) => {
 
     try {
         var data = await repository.getById(id);
-        res.status(200).send(data);
+        res.status(200).send({
+            message: "Clinica:",
+            data
+        });
     } catch (error) {
         res.status(500).send({
             message: "Falha ao processar a requisição",
