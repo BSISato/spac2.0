@@ -15,7 +15,7 @@ var config = require('./src/config')
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-/* VERIFICAR ESSA CARALHA AQUI
+// VERIFICAR ESSA CARALHA AQUI
 
 app.use(function(req, res, next) {
 
@@ -23,7 +23,7 @@ app.use(function(req, res, next) {
     res.setHeader("Access-Control-Allow-Methods", "DELETE, POST, GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "*");
 });
-*/
+
 //definindo a porta via arquivo de configuração
 var port = process.env.port || 3000;
 
