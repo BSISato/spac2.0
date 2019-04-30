@@ -10,6 +10,7 @@ exports.get = async () => {
    
 }
 //getById
+//união de dois doc
 exports.getById = async (id) => {
 
     const consulta = await Consulta.findById(id);

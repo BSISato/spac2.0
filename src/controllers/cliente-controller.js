@@ -53,6 +53,20 @@ exports.put = async (req, res) => {
 
 exports.post = async (req, res) => {
     try {
+        /*
+        var errors=[];
+        if (!req.body.email){
+           errors.push({msgError:"E-mail Obrigatorio"});
+        };
+
+        if (!req.body.senha){
+            errors.push({msgError:"Senha Obrigatorio"});
+         };
+
+         if (errors) {
+            throw errors;
+         };
+         */
         await repository.post({
             nome: req.body.nome,
             dataNascimento: req.body.dataNascimento,
@@ -68,6 +82,7 @@ exports.post = async (req, res) => {
             uf: req.body.uf,
             convenioMedico: req.body.convenioMedico
         });
+        
         res.status(201).send({
             message: "Cliente cadastrado com sucesso"
         });
@@ -75,6 +90,7 @@ exports.post = async (req, res) => {
         console.log(e);
         res.status(500).send({
             message: "Falha ao processar a requisição",
+            //e,
         });
     }
 }
